@@ -4,6 +4,7 @@ const pessoa: { nome: string; idade: number } = {
 };
 
 pessoa.idade = 31;
+pessoa.nome = 'João';
 
 console.log(pessoa.nome);
 console.log(pessoa.idade);
