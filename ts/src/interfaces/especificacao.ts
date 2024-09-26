@@ -17,6 +17,7 @@ let computador: Especificacoes = {
     armazenamento: '256 GB SSD',
     bluetooth: true,
     hdmi: true,
+    usbC: true,
 };
 
 console.log(computador);

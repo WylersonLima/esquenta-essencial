@@ -1,6 +1,6 @@
 interface Animal {
     nome: string;
-    tipo: 'terrestre' | 'aquático';
+    tipo: 'terrestre' | 'aquático' | 'voador';
     domestico: boolean;
 }
 
@@ -15,4 +15,12 @@ let cachorro: Pet = {
     dono: 'Victor',
 };
 
+let calopsita: Pet = {
+    nome: 'Shakira',
+    tipo: 'voador',
+    domestico: true,
+    dono: 'Pedro',
+};
+
+console.log(calopsita);
 console.log(cachorro);
