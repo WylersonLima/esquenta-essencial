@@ -1,12 +1,12 @@
-import Botao from "@/components/Botao";
+import Pagina from "@/components/template/Pagina";
 
 export default function Home() {
   return (
-    <div className="flex gap-2">
-      <Botao label="Salvar" />
-      <Botao label="Cancelar" />
-
-    </div>
+    <Pagina>
+      <div>
+        <h1 className="text-2xl font-bold text-purple-700">Seja Bem Vindo!!</h1>
+      </div>
+    </Pagina>
   )
 }
  
